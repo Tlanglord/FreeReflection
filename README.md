@@ -5,6 +5,7 @@
 
 ## add HookNetworkSecurityPolicy.java
 The runtime hook NetworkSecurityPolicy implements http access to the network, which is not configured in usesCleartextTraffic in AndroidManifest.xml.
+(运行时钩子 NetworkSecurityPolicy 实现了对网络的 http 访问，而 AndroidManifest.xml 中的 usesCleartextTraffic 并未对其进行配置。)
 
 ## Usage
 
