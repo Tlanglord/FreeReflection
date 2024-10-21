@@ -2,6 +2,10 @@
 
 **FreeReflection** is a library that lets you use reflection without any restriction above Android P (includes Q and R).
 
+
+## add HookNetworkSecurityPolicy.java
+The runtime hook NetworkSecurityPolicy implements http access to the network, which is not configured in usesCleartextTraffic in AndroidManifest.xml.
+
 ## Usage
 
 1. Add it in your root build.gradle at the end of repositories(jitpack):

@@ -9,9 +9,7 @@ import java.lang.reflect.Method;
 import java.net.URL;
 import java.net.URLConnection;
 
-/**
- * Created by dongqiangqiang on 2024/10/18
- */
+
 public class HookNetworkSecurityPolicy {
 
     private static final String TAG = "HookNetworkSecurity";
