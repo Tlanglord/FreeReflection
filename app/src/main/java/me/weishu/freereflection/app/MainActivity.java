@@ -48,6 +48,10 @@ public class MainActivity extends Activity {
                 toast("unseal result: " + ret);
             }
         });
+
+
+        HookNetworkSecurityPolicy.setCleartextTrafficPermittedTrue();
+
     }
 
     private void toast(String msg) {
